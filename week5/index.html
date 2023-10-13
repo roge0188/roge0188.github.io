@@ -4,6 +4,7 @@
 <head>
     <meta chargeset="UTF-8">
     <title>Reggie's Cofee Shop - Home</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
         <nav>
 
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
                 <li><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
@@ -26,7 +27,7 @@
     <!-- Starting the main content -->
     <main>
         <!-- adding an on page link -->
-        <a href="#treatoftheweek">Treat of the Week</a>
+        <a href="#treatoftheweek" class="blue-link">Treat of the Week</a>
         <!-- artictle of the page. Can be standalone-->
         <article>
             <h2>Our Story</h2>
@@ -69,8 +70,8 @@
 
         <!-- Adding a section for a description list -->
         <section id="treatoftheweek">
-            <h3>Treat of the week</h3>
-            <dl>
+            <h3 class="white-text">Treat of the week</h3>
+            <dl class="white-text">
                 <dt>Name</dt>
                 <dd>Banana Bread</dd>
 
@@ -91,12 +92,12 @@
                 </dd>
             </dl>
             <!-- Adding an external link -->
-            <a href="https://www.allrecipes.com/recipe/20144/banana-banana-bread/" target="_blank">Get the recipe</a>
+            <a href="https://www.allrecipes.com/recipe/20144/banana-banana-bread/" target="_blank" class="blue-link large-text">Get the recipe</a>
         </section>
         <section>
             <!-- adding a section for Menu Table -->
             <h3>Menu Specials</h3>
-            <table border>
+            <table>
                 <thead>
                     <tr>
                         <th colspan="2">Items</th>
