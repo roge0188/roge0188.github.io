@@ -6,6 +6,8 @@ shortcut for adding a comment is control/cmnd + /
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
+    /* adding a background image */
+    background-image: url(../images/white_brick_wall.png);
 }
 
 h1 {
@@ -29,12 +31,25 @@ nav ul {
 nav ul a {
     color: darkslategray;
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5rem (html font size) = 16px * 1.5 = 24px */
 }
 
 /* Selecting element with ID value */
 /* As a best practice, avoid IDs for styles */
 #treatoftheweek {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    /* color image repeat position-x position-y */
+    background: cadetblue url(../images/bread.jpg) no-repeat center;
+    background-size:cover ;
+    font-size: 1.25rem;
+    /* 1.25 * 16px = 20px */
+    padding: 1em;
+    /* 1 * 20px (element font size) = 20px */
+    /* viewport based units */
+    /* width: 100wv; */
+    height: 100vh;
+    width: 50%;
 }
 
 .blue-link {
@@ -55,6 +70,10 @@ nav ul a {
 /* direct child selector - will only select the direct child of the parent*/
 article>p {
     font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 /* adjacent sibling selectore- selects the element that is the very next sibling to the selected element, if any exist */
