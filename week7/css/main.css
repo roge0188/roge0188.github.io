@@ -76,16 +76,50 @@ nav ul a {
     /* width: 100wv; */
     height: 100vh;
     width: 50%;
+    /* position relative */
+    position: relative;
+    padding: 1em 1em 4em 1em;
+
+}
+
+/* Absolute position  */
+.blue-link.large-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .blue-link {
     background-color: darkslategray;
     color: antiquewhite;
     text-decoration: none;
+    /* em=1.5xfont size */
+    padding: 1.5em;
+    width: 300px;
+    display: block;
 }
 
 .large-text {
     font-size: 24px;
+    line-height: 1.5em;
+}
+
+/* example of float layout */
+article,
+aside {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1.5em;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside {
+    width: 20%;
+}
+
+section {
+    clear: both;
 }
 
 .white-text {
@@ -119,6 +153,16 @@ h3~p {
 
 [src$=".jpg"] {
     border: 8px solid darkslategray;
+}
+
+/* fixed navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba (0, 0, 0, 0.8);
+    z-index: 999;
 }
 
 /* Using Psuedo classes */
