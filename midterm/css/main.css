@@ -12,6 +12,8 @@ body {
    padding-top: 200px;
    padding-bottom:200px;
    background-size: cover;
+   border-image-repeat: repeat;
+   margin: 0;
 }
 
 .nav {
