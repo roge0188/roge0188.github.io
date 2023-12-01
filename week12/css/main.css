@@ -1,0 +1,38 @@
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Poppins';
+}
+
+.fa-paint-roller{
+    font-size: 10rem;
+    color: crimson;
+}
+
+.max-mar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background-color: antiquewhite;
+}
+
+.head {
+    background-color: blanchedalmond;
+}
+.container {
+    background-color: cadetblue;
+}
+
+.maps iframe {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
