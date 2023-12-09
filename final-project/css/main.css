@@ -1,0 +1,133 @@
+.container {
+    max-width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: 'open sans', sans-serif;
+}
+.main-nav {
+    background-color: #222;
+}
+.nav-list li  {
+    text-align: center;
+    list-style: none;
+    padding: 1.5em;
+    
+}
+.nav-list li a {
+    color: #c78c06;
+    text-decoration: none;
+}
+
+.connect {
+    background: url(/final-project/images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 2em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    color: white;
+}
+.search {
+    background-color: #222;
+   display: flex;
+   
+   align-content: end;
+   justify-content: end;
+}
+.us {
+    background-color: #c78c06;
+    text-decoration: none;
+    display: inline-block;
+    padding: 50px;    
+}
+.us a {
+    color: black;
+    text-decoration: none;
+}
+.plans {
+    background-color: #222;
+    display: inline-block;
+    padding: 50px;
+}
+.plans a {
+    color: white;
+    text-decoration: none;
+}
+.market {
+    background-color: #222;
+    display: inline-block;
+    padding: 50px;
+}
+.market a {
+    color: white;
+    text-decoration: none;
+}
+.video {
+    background-color: #222;
+    display: inline-block;
+    padding: 50px;
+}
+.video a {
+    color: white;
+    text-decoration: none;
+}
+.web {
+    background-color: #222;
+    display: inline-block;
+    padding: 50px;
+}
+.web a {
+    color: white;
+    text-decoration: none;
+}
+.print {
+    background-color: #222;
+    display: inline-block;
+    padding: 50px;
+}
+.print a {
+    color: white;
+    text-decoration: none;
+}
+.learn {
+    background-color: #222;
+    display: inline-block;
+    padding: 50px;
+} 
+.learn a {
+    color: white;
+    text-decoration: none;
+}
+.send {
+    background-color: #222;
+    display: inline-block;
+    padding: 20px;
+}
+.send a {
+    color: #c78c06;
+    text-decoration: none;
+}
+form input, textarea {
+    padding: 20px;
+    align-content: end;
+    font-size: 15px;
+    width: 100%   
+}
+
+form {
+    max-width: 1200px;
+}
+
+img  {
+    width: 100%;
+}
+
+.mobile-logo {
+    width: 200px;
+}
+
+
+@media screen and (min-width:760px) {
+    
+}
+
