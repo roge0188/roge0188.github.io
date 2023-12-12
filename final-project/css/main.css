@@ -3,7 +3,7 @@
     max-width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-    font-size: 2em;
+    font-size: 17px;
     font-family: 'open sans', sans-serif;
 }
 h1{
@@ -57,6 +57,13 @@ h4 {
 .about {
     background-color: #ffe6ac;
     margin: auto;
+}
+.abouts {
+    padding-top: 30px;
+    background-color: #ffe6ac;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .services {
     background-color: #ffe6ac;
@@ -224,14 +231,14 @@ h4 {
     padding-top: 20px;
 }
 form input, textarea{
-    padding: 20px;
+    padding: 10px;
     align-content: end;
     font-size: 15px;
     width: 100%;
     border: 2px solid#222;  
 }
 form ::placeholder {
-    font-size: 2em;
+    font-size: 1em;
 }
 /* stylling the table */
 table {
@@ -262,13 +269,6 @@ img  {
 .mobile-logo {
     width: 200px;
 }
-.about-us {
-    padding-top: 30px;
-    background-color: #ffe6ac;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 .line {
     background: #c78c06;
@@ -296,9 +296,61 @@ img  {
     padding-top: 30px;
     padding-bottom: 10px;
     width: 100%;
-    font-size: 1.5em;
 }
 @media screen and (min-width:760px) {
-    
+    .container {
+        font-size: 20px;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+     }
+     .main-nav {
+        display: flex;
+     }
+
+     .about img{
+       width: 900px;
+       float: left;
+       margin-right: 1em;
+     }
+     .about {
+        float: left;
+     }
+     .cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 1em;
+        column-gap: 1em;
+     }
+     .services {
+        grid-column: 1 / span 3 ;
+        grid-row: 1;
+     }
+     .markets {
+        grid-column: 4 / span 3 ;
+        grid-row: 1;
+     }
+     .videos  {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+     }
+     .webs {
+        grid-column: 3 / span 2;
+        grid-row: 2;
+     }
+     .printer {
+        grid-column: 5 / span 2;
+        grid-row: 2;
+     }
+     .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+     }
+     .teams {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+     }
 }
 
